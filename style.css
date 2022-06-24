@@ -8,6 +8,158 @@ body {
     font-size: 62.5%;
     font-size: 10px;
 }
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .lrg{
+        font-size:4vw;
+
+    }
+    p{
+        font-size:3.5vw;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+    .lrg{
+        font-size:6vw;
+        
+    }
+
+    p{
+        font-size:4vw;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+    .lrg{
+
+        
+    }
+
+    p{
+        font-size:3vw;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+    .lrg{
+
+        
+    }
+
+    p{
+        font-size:5vw;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image {
+
+    position: fixed;
+
+    width: 100%;
+
+    height: 100%;
+
+    background-image: url(https://c0.wallpaperflare.com/preview/745/709/180/background-black-coffee-close-up-coffee.jpg);
+
+    background-size: cover;
+
+    margin-top:0;
+
+    filter: brightness(25%);
+
+
+
+  }
+
+  .content {
+
+    position: absolute;
+
+    top: 0;
+
+    width: 100%;
+
+    height: 200px;
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*-- Inspiration taken from abdo steif -->
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
 
@@ -70,17 +222,6 @@ body {
     color: #00E676;
 }
 
-
-/* Home section */
-
-.home {
-    width: 100%;
-    height: 33vh;
-    background-image: url(https://idsb.tmgrup.com.tr/ly/uploads/images/2021/09/24/146502.jpg);
-    background-position: center top;
-	background-size:cover;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
 .navTrigger {
     display: none;
@@ -342,57 +483,3 @@ body {
     background-color: #111;
 }
 
-
-
-
-
-
-.myH2 {
-	text-align:center;
-	font-size: 4rem;
-}
-.myP {
-	text-align: justify;
-	padding-left:15%;
-	padding-right:15%;
-	font-size: 20px;
-}
-@media all and (max-width:700px){
-	.myP {
-		padding:2%;
-	}
-}
-
-
-.image {
-
-    position: fixed;
-
-    width: 100%;
-
-    height: 100%;
-
-    background-image: url(https://c0.wallpaperflare.com/preview/745/709/180/background-black-coffee-close-up-coffee.jpg);
-
-    background-size: cover;
-
-    margin-top:0;
-
-    filter: brightness(25%);
-
-
-
-  }
-
-  .content {
-
-    position: absolute;
-
-    top: 0;
-
-    width: 100%;
-
-    height: 200px;
-
-
-  }

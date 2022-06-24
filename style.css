@@ -30,6 +30,10 @@ body {
         font-size:3.5vw;
     }
 
+    p.small{
+        font-size: 3vw;
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -47,6 +51,10 @@ body {
 
     p{
         font-size:3.5vw;
+    }
+
+    p.small{
+        font-size: 3vw;
     }
 
 }
@@ -67,6 +75,10 @@ body {
     p{
         font-size:4vw;
     }
+
+    p.small{
+        font-size: 3vw;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -86,6 +98,10 @@ body {
     p{
         font-size:3vw;
     }
+
+    p.small{
+        font-size: 2vw;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -103,6 +119,10 @@ body {
 
     p{
         font-size:1.5vw;
+    }
+
+    p.small{
+        font-size: 1.5vw;
     }
 }
 
@@ -514,3 +534,20 @@ body {
 .card-body, .card-footer{
     background-color: #fff;
 }
+
+.separator{
+    display: flex;
+    align-items: center;
+  }
+  
+  .separator p{
+    padding: 0 1rem; /* creates the space */
+  }
+  
+  .separator .line{
+    margin-top:-19px;
+    flex: 1;
+    height: 1px;
+    background-color: #fff;
+  }
+

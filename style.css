@@ -15,7 +15,7 @@ body {
 
 .nav {
     width: 100%;
-    height: 65px;
+    height: 110px;
     position: fixed;
     line-height: 65px;
     text-align: center;
@@ -362,3 +362,37 @@ body {
 		padding:2%;
 	}
 }
+
+
+.image {
+
+    position: fixed;
+
+    width: 100%;
+
+    height: 100%;
+
+    background-image: url(https://c0.wallpaperflare.com/preview/745/709/180/background-black-coffee-close-up-coffee.jpg);
+
+    background-size: cover;
+
+    margin-top:0;
+
+    filter: brightness(25%);
+
+
+
+  }
+
+  .content {
+
+    position: absolute;
+
+    top: 0;
+
+    width: 100%;
+
+    height: 200px;
+
+
+  }

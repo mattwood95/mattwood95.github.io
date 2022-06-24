@@ -27,7 +27,7 @@ body {
     }
 
     p{
-        font-size:8vw;
+        font-size:3.5vw;
     }
 
 }
@@ -46,7 +46,7 @@ body {
     }
 
     p{
-        font-size:8vw;
+        font-size:3.5vw;
     }
 
 }
@@ -65,7 +65,7 @@ body {
     }
 
     p{
-        font-size:8vw;
+        font-size:4vw;
     }
 }
 
@@ -84,7 +84,7 @@ body {
     }
 
     p{
-        font-size:8vw;
+        font-size:3vw;
     }
 }
 
@@ -102,7 +102,7 @@ body {
     }
 
     p{
-        font-size:8vw;
+        font-size:1.5vw;
     }
 }
 
@@ -228,7 +228,8 @@ body {
 }
 
 .nav div.main_list ul li a:hover {
-    color: #00E676;
+    color: #313131;
+    border-bottom:1px solid #313131;
 }
 
 
@@ -279,11 +280,10 @@ body {
         /*same background color of navbar*/
         background-position: center top;
     }
-    .nav div.main_list ul li a{
+    .nav div.main_list ul li a {
         width: 100%;
         text-align: right;
         color:#000;
-        
     }
     .nav div.main_list ul li a {
         text-align: center;
@@ -296,9 +296,6 @@ body {
         display: block;
     }
 
-    .navlogo img{
-        display:block
-    }
 }
 
 

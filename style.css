@@ -5,8 +5,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: "Quicksand", sans-serif;
-    font-size: 62.5%;
-    font-size: 10px;
+    /*font-size: 62.5%;
+    font-size: 14px;*/
 }
 
 
@@ -16,12 +16,18 @@ body {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     
-    .lrg{
-        font-size:4vw;
-
+    p.lrg{
+        font-size:8vw;
+        
     }
+
+    p.lrg2{
+        font-size:5vw;
+        
+    }
+
     p{
-        font-size:3.5vw;
+        font-size:8vw;
     }
 
 }
@@ -29,13 +35,18 @@ body {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     
-    .lrg{
+    p.lrg{
+        font-size:9vw;
+        
+    }
+
+    p.lrg2{
         font-size:6vw;
         
     }
 
     p{
-        font-size:4vw;
+        font-size:8vw;
     }
 
 }
@@ -43,13 +54,18 @@ body {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     
-    .lrg{
+    p.lrg{
+        font-size:7vw;
+        
+    }
 
+    p.lrg2{
+        font-size:4vw;
         
     }
 
     p{
-        font-size:3vw;
+        font-size:8vw;
     }
 }
 
@@ -57,20 +73,37 @@ body {
 @media only screen and (min-width: 992px) {
 
 
-    .lrg{
+    p.lrg{
+        font-size:4vw;
+        
+    }
 
+    p.lrg2{
+        font-size:2vw;
         
     }
 
     p{
-        font-size:5vw;
+        font-size:8vw;
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     
+    p.lrg{
+        font-size:4vw;
+        
+    }
 
+    p.lrg2{
+        font-size:2vw;
+        
+    }
+
+    p{
+        font-size:8vw;
+    }
 }
 
 
@@ -131,30 +164,6 @@ body {
 
 
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -243,7 +252,7 @@ body {
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1240px) {
     .navTrigger {
         display: block;
     }
@@ -266,22 +275,29 @@ body {
         right: 0;
         left: 0;
         bottom: 0;
-        background-color: #111;
+        background-color: #d3d3d3;
         /*same background color of navbar*/
         background-position: center top;
     }
-    .nav div.main_list ul li {
+    .nav div.main_list ul li a{
         width: 100%;
         text-align: right;
+        color:#000;
+        
     }
     .nav div.main_list ul li a {
         text-align: center;
         width: 100%;
         font-size: 3rem;
-        padding: 20px;
+        padding: 0px;
+        padding-bottom:2vh;
     }
     .nav div.media_button {
         display: block;
+    }
+
+    .navlogo img{
+        display:block
     }
 }
 
